@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QuizApp</title>
+    <link rel = "stylesheet" type ="text/css" href = "style.css">
+    <script src = "app.js"></script>
+</head>
+<body>
+     <h1 id ="top">Welcome to Quiz WebApp</h1>
+
+<!-- image slider-->
+    <div id = "pic">
+        <img name="slide" id ="pics">
+       
+    </div>
+
+<!--header-->
+    <div id = "header">
+        <h1>HTML QuizApp</h1>
+    </div>
+<!--content-->
+    <div id = "page">
+        <!--checked tick-->
+        <div id = "checked">
+               <div id ="ch1" style = "margin-top:100px;"></div>
+               <div id ="ch2" style = "margin-top:185px;"></div>
+               <div id ="ch3" style = "margin-top:175px;"></div>
+               <div id ="ch4" style = "margin-top:140px;"></div>
+               <div id ="ch5" style = "margin-top:200px;"></div>
+        </div>
+
+        <div class="qus1">
+        <h3>1.What does HTML stands for?</h3>
+        <input type = "radio" id ="opt1" name ="qustion1">Hyper Text Markup Language <br><br>
+        <input type = "radio" id ="opt2" name ="qustion1">Hyperlinks and Text Markup Language<br><br>
+        <input type = "radio" id ="opt3" name ="qustion1">Home Tool Markup Language<br><br>
+        <input type = "radio" id ="opt4" name ="qustion1">Home tool Message Language<br><br>
+        </div>
+        <hr>
+
+        <div class="qus1">
+        <h3>2.Who is making the web standards?</h3>
+        <input type = "radio" id ="opt5" name ="qustion2">Microsoft <br><br>
+        <input type = "radio" id ="opt6" name ="qustion2">Google<br><br>
+        <input type = "radio" id ="opt7" name ="qustion2">Mozila<br><br>
+        <input type = "radio" id ="opt8" name ="qustion2">W3C<br><br>
+        </div>
+        <hr>
+
+        <div class="qus1">
+        <h3>3.H3 is the biggest header tag ?</h3>
+        <input type = "radio" id ="opt9" name ="qustion3">True<br><br>
+        <input type = "radio" id ="opt10" name ="qustion3">False<br><br>
+        </div>
+        <hr>
+
+        <div class="qus1">
+        <h3>4.Where is the meta tag only found?</h3>
+        <input type = "radio" id ="opt11" name ="qustion4">The Last Page<br><br>
+        <input type = "radio" id ="opt12" name ="qustion4">The Second Page<br><br>
+        <input type = "radio" id ="opt13" name ="qustion4">The Home Page<br><br>
+        <input type = "radio" id ="opt14" name ="qustion4">The Empty Page<br><br>
+        </div>
+        <hr>
+
+        <div class="qus1">
+        <h3>5.Where is the different levels of headings in HTML?</h3>
+        <input type = "radio" id ="opt15" name ="qustion5">1-7<br><br>
+        <input type = "radio" id ="opt16" name ="qustion5">2-5<br><br>
+        <input type = "radio" id ="opt17" name ="qustion5">1-6<br><br>
+        <input type = "radio" id ="opt18" name ="qustion5">2-4<br><br>
+        </div>
+        <hr>
+        <!--button score and percentage-->
+    <button id ="submit" onclick="checkResult()">Submit</button>
+    <p id ="score">Score:0</p>
+    <p id ="percentage">Percentage:0%</p>
+    </div>
+    <!--footer-->
+      <div class="footer">
+          <h2>Desinged And Developed By Arun</h2>
+          <p>Arun Austino &copy; All Rights Reserved</p>
+      </div>
+  
+
+</body>
+</html>

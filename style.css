@@ -1,0 +1,108 @@
+body{
+    background-color: pink;
+    
+}
+#pics{
+    width: 100%;
+    height: 600px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 10px;
+
+}
+ #top{
+    padding:10px;
+    color: lime;
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    font-size: 34px;
+}
+#header{
+    background-color: black;
+    width: 87%;
+    height:70px;
+    margin: 0 auto;
+    text-align: center;
+    padding:5px;
+    color: lime;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#header h1:hover{
+    color:white;
+    cursor: pointer;
+}
+
+#page{
+   background-color: rgba(0,0,0,0.3);
+   width:1300px;
+   height:100%;
+   margin: 0 auto;
+   border-radius: 5px;
+   padding: 10px;
+}
+.qus1{
+    margin: 0 auto;
+    margin-left: 50px;
+    color:lightsteelblue;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#score,#percentage{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:purple;
+}
+#checked{
+    float: right;
+
+}
+#submit{
+    text-align: center;
+    height: 60px;
+    width:200px;
+    color: blue;
+    margin: 0 auto;
+    background-color: lightblue;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 50px;
+    font-family:'Times New Roman', Times, serif;
+    outline: none;
+    border:2px solid lightcoral;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+#submit:hover{
+    background-color: purple;
+    cursor: pointer;
+    color:white;
+}
+#checked div{
+    padding: 10px;
+}
+#ch1,#ch2,#ch3,#ch4,#ch5{
+font-size: 35px;
+font-weight: bold;
+margin-right: 30px;
+
+}
+h3{
+    color:blue;
+    font-size: 27px;
+    font-weight: bold;
+}
+.footer{
+    color:lime;
+    background-color: black;
+    width: 86.8%;
+    height: 80px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
